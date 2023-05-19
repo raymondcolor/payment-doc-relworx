@@ -1,0 +1,9 @@
+{
+    "label": "Error Hnadling",
+    "position": 4,
+    "link": {
+      "type": "generated-index",
+      "description":"Relworx API uses HTTP status codes to indicate success or failure of a request. Below is a summary of the HTTP status codes you should expect to handle."
+    }
+  }
+  

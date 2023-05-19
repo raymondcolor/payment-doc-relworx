@@ -6,7 +6,7 @@ This API endpoint provides a choice list for a product.
 
 #### HTTP Request (GET)
 
-```
+```js
 https://payments.relworx.com/api/products/choice-list
 ```
 
@@ -20,14 +20,13 @@ https://payments.relworx.com/api/products/choice-list
 
 Make sure to replace <--Your API Key--> with your generated API Key.
 
-```
+```js
      curl -i -H "Accept: application/vnd.relworx.v2" -H "Content-Type: application/json" -H "Authorization: Bearer <--Your API Key-->" https://payments.relworx.com/api/products/choice-list\?code\=NATIONAL_WATER
-
 ```
 
 #### Sample response.
 
-```
+```js
 {
     "success": true,
     "choice_list": [

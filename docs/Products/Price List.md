@@ -20,14 +20,13 @@ https://payments.relworx.com/api/products/price-list
 
 Make sure to replace <--Your API Key--> with your generated API Key
 
-```
+```js
    curl -i -H "Accept: application/vnd.relworx.v2" -H "Content-Type: application/json" -H "Authorization: Bearer <--Your API Key-->" https://payments.relworx.com/api/products/price-list\?code\=MTN_UG_INTERNET
-
 ```
 
 #### Sample response.
 
-```
+```js
 {
     "success": true,
     "price_list": [

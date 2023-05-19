@@ -4,18 +4,7 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme='light'] {
@@ -27,6 +16,7 @@ html[data-theme='light'] {
   --ifm-color-primary-lighter: #64b964;
   --ifm-color-primary-lightest: #7ec57e;
 }
+
 html[data-theme='dark'] {
   --ifm-color-primary: #4dab4d;
   --ifm-color-primary-dark: #459a45;
@@ -35,6 +25,16 @@ html[data-theme='dark'] {
   --ifm-color-primary-light: #5bb55b;
   --ifm-color-primary-lighter: #64b964;
   --ifm-color-primary-lightest: #7ec57e;
-  --ifm-background-color: #242526;
-  --docusaurus-highlighted-code-line-bg: rgba(27, 27, 27, 0.3);
+  --ifm-background-color: #23272F;
+  --docusaurus-highlighted-code-line-bg: #1F1F1F !important;
 }
+
+.navbar {
+  background-color: #374151 !important;
+  color: #ffffff;
+}
+
+.toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module {
+  color: #459a45;
+}
+

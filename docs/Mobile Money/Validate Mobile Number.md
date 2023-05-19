@@ -7,7 +7,7 @@ This api endpoint validates a mobile money subscriber’s phone number.
 ### HTTP Request
 
 ##### POST
-```
+```js
 https://payments.relworx.com/api/mobile-money/validate
 ```
 ### Arguments
@@ -24,7 +24,7 @@ https://payments.relworx.com/api/mobile-money/validate
 
 ### Sample  validate mobile number request.
 
-```
+```js
 Make sure to replace <--Your API Key--> with your obtained api key.
 
  curl "https://payments.relworx.com/api/mobile-money/validate" \
@@ -38,7 +38,7 @@ Make sure to replace <--Your API Key--> with your obtained api key.
 
 ```
 ### Sample response.
-```
+```js
 {
     "success": true,
     "message": "Msisdn +256701345674 successfully validated.",

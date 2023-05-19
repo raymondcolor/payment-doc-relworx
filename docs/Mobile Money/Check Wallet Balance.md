@@ -7,7 +7,7 @@ This endpoint checks balance on a mobile money wallet.
 ### HTTP Request
 
 ##### POST
-```
+```js
 https://payments.relworx.com/api/mobile-money/check-wallet-balance
 ```
 ### Arguments
@@ -27,11 +27,11 @@ https://payments.relworx.com/api/mobile-money/check-wallet-balance
 
 Make sure to replace <--Your API Key--> with your obtained api key.
 
-```
+```js
    curl -i -H "Accept: application/vnd.relworx.v2" -H "Content-Type: application/json" -H "Authorization: Bearer <--Your API Key-->" https://payments.relworx.com/api/mobile-money/check-wallet-balance\?account_no\=RELB0C798FGHVCS\&currency\=UGX
 ```
 ### Sample response.
-```
+```js
 {
     "success": true,
     "balance": 0.0,

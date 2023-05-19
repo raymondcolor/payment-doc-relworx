@@ -7,7 +7,7 @@ This api endpoint sends payment to a mobile money subscriber.
 ### HTTP Request
 
 ##### POST
-```
+```js
 https://payments.relworx.com/api/mobile-money/send-payment
 ```
 ### Arguments
@@ -24,7 +24,7 @@ https://payments.relworx.com/api/mobile-money/send-payment
 
 ### Sample  send payment request
 
-```
+```js
 curl "https://payments.relworx.com/api/mobile-money/send-payment" \
   -X POST \
   -H "Content-Type: application/json" \
@@ -41,7 +41,7 @@ curl "https://payments.relworx.com/api/mobile-money/send-payment" \
 
 ```
 ### Sample response.
-```
+```js
 {
     "success": true,
     "message": "Send payment in progress.",

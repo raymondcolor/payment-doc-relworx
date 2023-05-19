@@ -6,7 +6,7 @@ This API endpoint validates a product. Product validation is required before eve
 
 #### HTTP Request (POST)
 
-```
+```js
 https://payments.relworx.com/api/products/validate
 ```
 
@@ -26,7 +26,7 @@ https://payments.relworx.com/api/products/validate
 
 Make sure to replace <--Your API Key--> with your generated API Key.
 
-```
+```js
 curl "https://payments.relworx.com/api/products/validate" \
   -X POST \
   -H "Content-Type: application/json" \
@@ -51,7 +51,7 @@ curl "https://payments.relworx.com/api/products/validate" \
 
 #### Sample response.
 
-```
+```js
 {
     "success": true,
     "customer_name": "",

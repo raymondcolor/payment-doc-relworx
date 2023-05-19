@@ -28,7 +28,7 @@ In your code that receives or processes webhook requests:
 
 #### Sample PHP implementation to generate verification signature:
 
-```
+```js
 /**
  * @param string $webhook_key the webhooks authentication key
  * @param string $url the webhook url

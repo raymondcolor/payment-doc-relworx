@@ -8,7 +8,7 @@ This API endpoint enables you to purchase a product.
 
 #### HTTP Request (POST)
 
-```
+```js
 https://payments.relworx.com/api/products/purchase
 ```
 
@@ -23,7 +23,7 @@ https://payments.relworx.com/api/products/purchase
 
 Make sure to replace <--Your API Key--> with your generated API Key.
 
-```
+```js
 curl "https://payments.relworx.com/api/products/purchase" \
   -X POST \
   -H "Content-Type: application/json" \
@@ -37,7 +37,7 @@ curl "https://payments.relworx.com/api/products/purchase" \
 
 #### Sample response.
 
-```
+```js
 {
     "success": true,
     "message": "Product purchase in progress.",

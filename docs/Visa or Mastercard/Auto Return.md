@@ -18,7 +18,7 @@ When you enable Auto Return and configure URL's for Auto Return, the target page
 
 ##### Generate verification signature to verify Auto Return:
 
-```
+```js
 /**
  * @param string $webhook_key the webhooks authentication key
  * @param string $url the webhook url

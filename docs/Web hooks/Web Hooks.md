@@ -11,7 +11,7 @@ When the status of your request changes from pending to either failed or success
 
 ####
 
-```
+```js
 {
   "status": "success",
   "message":  "Request payment completed successfully.",

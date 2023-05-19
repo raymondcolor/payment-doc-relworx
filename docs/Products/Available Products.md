@@ -6,7 +6,7 @@ This API endpoint provides a list of products available for purchase.
 
 #### HTTP Request (GET)
 
-```
+```js
 https://payments.relworx.com/api/products
 ```
 
@@ -27,13 +27,13 @@ billable	|Indicates whether Relworx charges you to purchase a product.
 
 Make sure to replace <--Your API Key--> with your generated API Key.
 
-```
+```js
  curl -i -H "Accept: application/vnd.relworx.v2" -H "Content-Type: application/json" -H "Authorization: Bearer <--Your API Key-->" https://payments.relworx.com/api/products
  ```
 
  #### Sample response.
 
- ```
+ ```js
  {
     "success": true,
     "products": [

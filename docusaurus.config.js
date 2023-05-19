@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'relworx payment',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'relworx payment',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -39,12 +39,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-      
+          routeBasePath:'/',
+        },     
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -55,29 +51,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
+      
         title: '',
         logo: {
           alt: 'Relworx Logo',
-          src: 'img/logo.png',
+          src: '/img/logo.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'right',
-            label: 'Documentation',
-          },
-        
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // nav link here
         ],
       },
+
       footer: {
         style: 'dark',
         links: [
@@ -121,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Relworx payment.`
       },
       prism: {
         theme: lightCodeTheme,

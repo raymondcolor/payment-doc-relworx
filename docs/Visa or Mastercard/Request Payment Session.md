@@ -5,7 +5,7 @@ sidebar_positon: 1
 This endpoint requests a payment session for VISA/Mastercard.
 
 #### POST
-```
+```js
 https://payments.relworx.com/api/visa/request-session
 ```
 
@@ -22,7 +22,7 @@ https://payments.relworx.com/api/visa/request-session
 
 #### Sample request to get a payment session
 
-```
+```js
 curl "https://payments.relworx.com/api/visa/request-session" \
   -X POST \
   -H "Content-Type: application/json" \
@@ -38,7 +38,8 @@ curl "https://payments.relworx.com/api/visa/request-session" \
 ```
 
 #### Sample response. Load returned payment_url to access visa payment form.
-```
+
+```js
 {
     "success": true,
     "message": "Visa/Mastercard payment url generated successfully.",

@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -9,24 +6,12 @@ const config = {
   title: 'relworx payment',
   tagline: 'relworx payment',
   favicon: 'img/favicon.png',
-
-  // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'Relworx', // Usually your GitHub org/user name.
+  projectName: 'relworx payment API doc', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -65,42 +50,43 @@ const config = {
 
       footer: {
         style: 'dark',
+        // logo: {
+        //   alt: 'Relworx Logo',
+        //   src: '/img/logo.png',
+        // },
         links: [
           {
-            title: 'Docs',
+            title: 'About',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Back to Relworx payment',
+                href: 'https://payments.relworx.com/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Quick links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Sign Up',
+                href: 'https://payments.relworx.com/accounts/new',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Sign In',
+                href: 'https://payments.relworx.com/users/sign_in',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+           
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Create a business account',
+                href: 'https://payments.relworx.com/business_accounts/new',
               },
               {
-                label: 'GitHub',
+                label: 'Generate your API Key',
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],

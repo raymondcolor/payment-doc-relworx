@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpayment_doc=self.webpackChunkpayment_doc||[]).push([[884],{9268:e=>{e.exports=JSON.parse('{"title":"Web Hooks","slug":"/category/web-hooks","permalink":"/category/web-hooks","navigation":{"previous":{"title":"Purchase Product","permalink":"/Products/Purchase Product"},"next":{"title":"Web Hooks","permalink":"/Web hooks/"}}}')}}]);
